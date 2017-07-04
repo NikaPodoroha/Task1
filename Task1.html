@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyFirstTask</title>
+
+</head>
+<body>
+<script src="./values.js"></script>
+<script src="./task1.js"></script>
+<script src="./task2.js"></script>
+<script src="./task3.js"></script>
+<script src="./task4.js"></script>
+<script src="./task5.js"></script>
+<script src="./task6.js"></script>
+<script src="./task7.js"></script>
+<script src="./task8.js"></script>
+<script src="./task9.js"></script>
+<script>
+    alert('Задание 1' + '\n' + firstCharToUpperCase(text) + '\n' +
+        'Задание 2' + '\n' + checkForSubstring(string, ring) + '\n' +
+        'Задание 3' + '\n' + splitString(str, maxLength) + '\n' +
+        'Задание 4' + '\n' + randomNumber(min, max) + '\n' +
+        'Задание 5' + '\n' + fibonachi(n) + '\n' + 'Задание 6' + '\n' + changeDirection(string) + '\n' +
+        'Задание 7' + '\n' + findLongestWord(sentence) + '\n' +
+        'Задание 8' + '\n' + factorial(n));
+
+    alert('Добавить трёх пользователей с номерами 11-22-33 , 12-22-34 ( номера 2-го и 3-го пользователей совпадают) ' +
+        '\n' + phoneBook.addUser(user));
+    alert(phoneBook.addUser(user1));
+    alert(phoneBook.addUser(user2));
+    alert('Найти пользователя по номеру телефона и вернуть информацию про него ' + '\n' + phoneBook.findByTel('11-22-33'));
+    alert(phoneBook.getUser('12-22-34'));
+    alert('Обновить пользователя по номеру телефона ' + '\n' + phoneBook.updateUserByTel('11-22-33'));
+    alert('Удалить пользователя по номеру телефона ' + '\n' + phoneBook.deleteUser('12-22-34'));
+
+</script>
+
+
+</body>
+</html>

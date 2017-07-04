@@ -1,0 +1,9 @@
+var text = 'строка';
+var string = 'string';
+var ring = 'ring';
+var str = "myTextIsTooLongForThisLength";
+var maxLength = 10;
+var min = 1;
+var max = 10;
+var n = 3;
+var sentence = 'hi, my friend! My name Nika!';
