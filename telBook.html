@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telephone Book</title>
+    <style>
+        .container {
+            margin: 0 auto;
+        }
+        .li{
+            class: "editing";
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form name="telephoneBook" id="telephoneBook" action="submit">
+
+            <input type="text" name="userName" id="userName" placeholder="user name" required>
+            <input type="text" name="userSurname" id="userSurname" placeholder="user surname" required>
+            <input type="text" name="userTel" id="userTel" placeholder="user telephone number" required>
+            <button type="submit">
+                Add user
+            </button>
+    </form>
+
+    <ul id="list" type="circle"></ul>
+</div>
+<script src="model.js"></script>
+<script src="view.js"></script>
+<script src="controller.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
